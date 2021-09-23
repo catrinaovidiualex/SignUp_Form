@@ -1,0 +1,135 @@
+h1{
+    text-align: center;
+   
+}
+
+fieldset{
+    border:none;
+}
+body{
+    background-color:#f6f7f9;
+}
+
+.number{
+    text-align: center;
+    color:white;
+    background-color: #77d08a;
+    width:25px;
+    height: 25px;
+    border-radius: 25px;
+    display:inline-block;
+}
+
+legend span{
+    font-size:20px;
+    font-weight: bold;
+   
+}
+
+label {
+    color:black;
+    font-size: 16px;
+    padding:5px;
+    
+}
+#nume,#mail,#password{
+    background-color: #e9efef;
+    border:none;
+    width: 95%;
+    height:25px;
+    padding: 10px;
+    margin-top:10px;
+    margin-bottom: 20px;
+}
+
+#age{
+    display:block;
+    
+}
+
+#under_13,#over_13{
+   
+    width:10px;
+    height: 10px;
+    
+}
+
+fieldset{
+    height:60%;
+    display:block;
+    margin:0;
+}
+
+#bio{
+
+    background-color: #e9efef;
+    border:none;
+    width: 95%;
+    height:35px;
+    padding: 10px;
+    margin-top:10px;
+    margin-bottom: 20px;
+
+}
+
+#job{
+
+    background-color: #e9efef;
+    border:none;
+    width: 95%;
+    height:35px;
+    padding: 10px;
+    margin-top:10px;
+    margin-bottom: 20px;
+    color:grey;
+
+}
+
+.interest{
+    display: flex;
+   /* align-items:left;
+    justify-content: center;*/
+    flex-direction:column ;
+    width:100%;
+    height: 100%; 
+}
+
+#development,#design,#business{
+    display:block;
+    
+}
+
+
+
+.interest label{
+    
+    color:grey;
+    font-size: 15px;
+    
+}
+
+/*de verificat labelul pt 'Interests'*/
+#development, #design, #business{
+    display:flex;
+    flex-direction: column;
+    border:2px solin blue;
+}
+
+button{
+    background-color:#70c779;
+    margin-top: 20px;
+    border:none;
+    width:95%;
+    height: 50px;
+    border-radius: 5px;
+    color:white;
+}
+
+.card{
+    display:flex;
+    flex-direction: row;
+}
+
+
+
+
