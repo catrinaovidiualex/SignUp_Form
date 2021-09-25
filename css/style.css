@@ -72,8 +72,9 @@ fieldset{
 
 }
 
-#job{
 
+#job{
+    
     background-color: #e9efef;
     border:none;
     width: 95%;
@@ -82,6 +83,13 @@ fieldset{
     margin-top:10px;
     margin-bottom: 20px;
     color:grey;
+    text-align:left;
+
+}
+
+.container_job{
+    display:flex;
+    flex-direction: column;
 
 }
 
